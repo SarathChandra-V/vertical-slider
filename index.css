@@ -1,0 +1,25 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  font-family:'tahoma', serif;
+}
+.vertical-slider-container{
+  width:25%;
+  margin:20px auto;
+  height:390px;
+  background-color:#ccc;
+  overflow:hidden;
+}
+.vertical-slider-ul{
+  list-style:none;
+  position:relative;
+}
+.vertical-slider-li{
+  height:130px;
+  scroll-behavior: auto;
+   text-align:center;
+  border-bottom:1px solid #ccc;
+}
