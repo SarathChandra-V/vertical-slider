@@ -14,7 +14,15 @@ function verticalScrollAnimate() {
     setInterval(function () {
         moveTop();
     }, 3000);
+    $(".vertical-slider-ul").hover(function(){
+        $(this).stop(); //Stop the animation when mouse in
+     },
+     function(){
+        moveTop(); //Start the animation when mouse out
+     });
 }
+
+
 
 $(document).ready(myFunction());
 

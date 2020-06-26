@@ -19,7 +19,7 @@ body{
 }
 .vertical-slider-li{
   height:130px;
-  scroll-behavior: auto;
+  scroll-behavior: smooth;
    text-align:center;
   border-bottom:1px solid #ccc;
 }
